@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+
+.admin-container{
+    
+    margin: auto;
+    margin-top: 8vh;
+    width: 1400px;
+    height: 800px;   
+    position: relative;  
+    background-color: white;
+    box-shadow: 0px 0px 10px 8px #0000004f;
+    border-radius: 25px;
+}
+
+.bg-container {
+    width: 100%;
+    height: 1125px;   
+    background-image: url(../../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -110vh;
+}
+
+.nav-left{
+    float: left;
+    width: 260px;
+    background-color: #009cff;
+    height: 800px; 
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow: inset -12px 0px 13px -9px rgba(0, 0, 0, 0.24);
+}
+
+.admin-info{
+    color: white;
+   padding-top: 56px;
+   text-align: center;
+  
+}
+
+.admin-info p{
+    padding: 10px;
+}
+
+.admin-info h1{
+    font-size: 26px;
+}
+.nav-left-information ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   margin-bottom: 260px;
+}
+
+
+.nav-left-information ul li a{
+    padding-left: 24px;
+    padding: 18px;    
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-decoration: none;
+    color: white;    
+    display: inline-block;
+    padding-left: 24px;
+}
+
+.nav-left-information ul li a:hover{
+    background-color: #1e2e978a;
+    width: 260px;
+}
+
+.nav-left-information ul li a.active{
+    background-color: #1e2f97;
+    width: 260px;
+}
+
+
+
+.nav-left-information ul li a:target{
+    background-color: #1e2f97;
+    width: 260px;
+    outline: 0;
+}
+
+.logout a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.555);
+    padding: 18px;
+    margin-left: 91px;
+    font-size: 24px;  
+}
+.logout a:hover{
+    color: #15125c;
+}
+
+
+.timesheet-container{
+    border-radius: 25px;
+    width: 1140;
+    height: 800px;
+    overflow-y: auto;
+    
+}
+
+
+.timesheet-title h1{
+    margin-left: 56px;
+    padding-top: 56px;
+  
+}
+
+.search-input{
+    font-size: 18px;
+    margin-left: 56px;
+    margin-bottom: 36px;
+}
+
+
+input[type=text]{
+    color: #15125c;
+    width: 70%;
+    padding: 10px 20px;
+    margin: 12px 8px;
+    border: 0px;
+    border-bottom: 1px solid #15125c;
+    outline: 0;
+    font-size: 16px; 
+}
+
+
+#input-paycheck{
+    padding: 0;
+    box-shadow: none;
+    border: 0px;
+    border: none;
+    font-size: 16px; 
+    outline: none;
+    margin: 0; 
+}
+
+
+
+#paycheck-submit{
+    padding: 12px 20px;
+    width: 240px;
+    margin: 8px;
+    border-radius: 50px;
+    background-color: #1e2f97;
+    border: 0;
+    color: white;
+    font-size: 16px;
+ 
+
+}
+
+#submit-td{
+    border: none;
+}
+
+input[type=submit]{
+    padding: 12px 20px;
+    width: 150px;
+    margin: 8px 0;
+    border-radius: 50px;
+    background-color: #1e2f97;
+    border: 0;
+    color: white;
+    font-size: 16px;
+ 
+   
+}
+input[type=submit]:hover{
+    box-shadow: 5px 2px 10px -3px #15125c;
+    cursor: pointer;
+}
+
+
+.employee-details{
+  
+    margin-top: 100px;
+    margin: auto;
+    height: 480px;
+    width: 1000px;
+
+}
+.e-data{
+    margin: auto;
+    
+    font-size: 16px;
+    height: 140px;
+    display: flex;
+}
+.e-left {
+    margin: auto;
+   
+    height: 140px;
+    width: 500px;
+   
+}
+.e-left table{
+    margin-left: 25px;
+}
+
+.e-left table th{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px 32px; 
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 5px;
+    margin-left: 25px;
+}
+
+
+.e-left table td{
+    text-align: right;  
+    width: 33%;   
+    padding: 0;
+}
+
+
+.e-right {
+    margin: auto;
+ 
+    height: 140px;
+    width: 500px;
+   
+}
+.e-right table{
+    margin-left: 25px;
+}
+
+.e-right table th{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px 32px; 
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 5px;
+    padding-top: 14px;
+    margin-left: 25px;
+}
+
+
+.e-right table td{
+    text-align: right;  
+    width: 33%;   
+    padding: 0;
+}
+
+
+.paycheck-compute {
+    margin: auto;
+    border: 1px solid black;
+    font-size: 16px;
+    height: 220px;
+    display: flex;
+}
+
+#earn{
+   border-bottom: 1px solid black;
+}
+
+.p-earn{
+   
+    height: 160px;
+    width: 500px;
+}
+.p-earn table th{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px 32px; 
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.p-earn table td{
+    text-align: right;
+    padding: 16px;
+    width: 43%;  
+}
+
+.p-deduct{
+    border-left: 1px solid black; 
+    height: 220px;
+    width: 500px;
+ 
+}
+.p-deduct table th{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px 32px; 
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.p-deduct table td{
+    text-align: right;
+    padding: 16px;
+    width: 43%;  
+}
+
+.total-pay {
+    margin: auto;
+   
+    font-size: 16px;
+    height: 60px;
+    display: flex;
+}
+
+
+.t-earn{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 60px;
+    width: 500px;
+}
+.t-earn table th{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px 32px; 
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.t-earn table td{
+    text-align: right;
+    padding: 16px;
+    width: 43%;  
+}
+
+
+.t-deduct{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    height: 60px;
+    width: 500px;
+}
+.t-deduct table th{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px 32px; 
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.t-deduct table td{
+    text-align: right;
+    padding: 16px;
+    width: 43%;  
+}
+
+
+.netpay{
+
+    height: 60px;
+    width: 500px;
+    float: right;
+}
+.netpay table th{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px 32px; 
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.netpay table td{
+    text-align: right;
+    padding: 16px;
+    width: 43%;  
+}
+
+.divider{
+    border-top: 1px solid rgba(0, 0, 0, 0.205);  
+   
+    margin-top: 35px;
+}
+
+
+h2{
+    text-align: center;
+    color: rgb(16, 196, 0);
+    font-size: 16px;
+    background-color: rgba(21, 255, 0, 0.144);
+    width: 400px;
+    margin-top: 10px;
+  
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: -25px;
+   
+}
+
+.search-input h1{
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    background-color: rgba(255, 0, 0, 0.144);
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 56px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: -25px;
+   
+}

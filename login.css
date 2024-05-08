@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+
+
+.login-container{
+    margin: auto;
+    margin-top: 8vh;
+    width: 1400px;
+    height: 800px;
+    background-image: url(img/login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;  
+    box-shadow: 0px 0px 10px 8px #00000062;
+    border-radius: 25px;
+}
+
+#digital-clock{
+    font-size: 16px;
+    padding: 25px;
+    color: #15125c;
+}
+
+.login-box{
+    width: 900px;
+    height: 400px;
+    text-align: center;
+    margin-left: 30px;
+    padding-top: 160px;
+    
+}
+
+
+.login-title p{
+    font-size: 42px;
+    padding: 25px;
+    color: #ffffff;
+}
+
+.login-title h2{
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 10px;
+    padding-bottom: 40px;
+    color: #15125c;
+}
+
+.login-form{
+    display: block;
+    
+}
+
+input[type=text] {
+    color: #15125c;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 50px;
+    border: 0px;
+    border-bottom: 1px solid #15125c;
+    box-shadow: 5px 2px 10px -3px #15125c56;
+    font-size: 16px; 
+   
+   
+    
+}
+
+input[type=password] {
+    color: #15125c;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 50px;
+    border: 0px;
+    border-bottom: 1px solid #15125c;
+    box-shadow: 5px 2px 10px -3px #15125c56;
+    font-size: 16px;    
+
+   
+   
+   
+}
+input[type=text]:focus{
+    outline: 0;
+    box-shadow: 5px 2px 10px -3px #15125c;
+}
+input[type=text]:hover{
+    box-shadow: 5px 2px 10px -3px #15125c;
+}
+
+input[type=password]:focus{
+    outline: 0;
+    box-shadow: 5px 2px 10px -3px #15125c;
+}
+input[type=password]:hover{
+    box-shadow: 5px 2px 10px -3px #15125c;
+}
+
+
+
+.ph{
+  position: absolute;
+    color: #ffffff;
+    font-size: 32px;
+    transform: translateY(13px);
+    margin-left: -40px;
+   
+}
+
+input[type=submit]{
+    padding: 12px 20px;
+    width: 150px;
+    margin: 8px 0;
+    border-radius: 50px;
+    margin-left: 156px;
+   
+    background-color: #1e2f97;
+    border: 0;
+    color: white;
+    font-size: 16px;
+}
+input[type=submit]:hover{
+ 
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 2px 10px -3px #15125c;
+}
+
+
+
+
+.forgot-submit{
+    display: block;
+}
+
+
+.bg-container {
+    width: 100%;
+    height: 1125px;   
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -110vh;
+}
+
+
+h2{
+    text-align: center;
+    color:  orange;
+    font-size: 18px;  
+    width: 400px;
+    margin-top: -18px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+    border-radius: 10px;
+    padding: 15px;
+
+   
+}
